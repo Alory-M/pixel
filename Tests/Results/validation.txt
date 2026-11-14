@@ -1,0 +1,15 @@
+PASS left wraps on same row
+PASS right wraps on same row
+PASS four-neighbor flood fill excludes diagonal and other color
+PASS same-color impact clears entire flower and wins
+PASS different-color impact preserves artwork
+PASS bottom danger line causes failure
+PASS detached component falls to last safe row
+PASS falling same-color components chain and clear
+PASS level 1 has a winning control sequence
+SOLUTION 000000000
+PASS level 2 has a winning control sequence
+SOLUTION 0000000222000000000220000000000000
+PASS level 3 has a winning control sequence
+SOLUTION 0000000000000222222222220000001
+11 checks passed
